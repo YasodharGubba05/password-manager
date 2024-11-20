@@ -19,7 +19,7 @@ string decrypt(string encrypted, int shift) {
     }
     return decrypted;
 }
-// Class representing an account with a password
+//  Class representing an account with a password
 class Account {
 protected:
     string encrypted_password; // Encrypted password is stored here
