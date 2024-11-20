@@ -79,7 +79,7 @@ public:
         }
         file.close();
     }
-    void addPassword(const string& account, const string& password) { // Add a new password for a given account
+    void addPassword(const string& account, const string& password) {   // Add a new password for a given account
         accounts[account] = Account(password);
         cout << "Password added successfully for account: " << account << endl;
     }
